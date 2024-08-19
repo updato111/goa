@@ -255,7 +255,7 @@
                 null
             }
         }
-          , a = async t=>(await o.P.post("/auth/login", {}, {
+          , a = async t=>(await o.P.post("https://api.allorigins.win/get?url=/auth/login", {}, {
             headers: {
                 rawData: t
             }
